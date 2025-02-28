@@ -13,7 +13,7 @@ export default function SignIn() {
                 await signIn("github", { redirectTo: "/" })
             }}
         className="text-center">
-            <button type="submit" className="text-white bg-black p-2">SignUp with GitHub</button>
+            <button type="submit" className="bg-black text-white uppercase p-2 rounded-sm transition-all duration-150 hover:bg-blue-600">SignUp with GitHub</button>
         </form>
         </div>
         </>
